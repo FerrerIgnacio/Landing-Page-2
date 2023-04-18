@@ -1,0 +1,45 @@
+.backg{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/mancuernas.webp");
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+}
+
+.bckg{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/gym-secundario.png");
+        background-size: cover;
+        background-position: center center;
+}
+
+.formulario{
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+svg,
+.borde-card:hover{
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+/* MEDIA-Q */
+@media only screen and (max-width: 1040px){
+    .borde-card{
+       margin: 5px;
+    }
+}
+
+
